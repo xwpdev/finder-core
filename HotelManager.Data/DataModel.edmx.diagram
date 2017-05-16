@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c03e26c6d8084eafa6452f1b5d26fb01" Name="Diagram1">
+        <EntityTypeShape EntityType="HotelEngineDbModel.Booking" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.BookingRoom" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.Customer" Width="1.5" PointX="1.5" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.Facility" Width="1.5" PointX="0.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.FacilityType" Width="1.5" PointX="1.5" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.Hotel" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.HotelFacility" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.HotelImage" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.HotelRoom" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.Room" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.RoomFacility" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.RoomImage" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelEngineDbModel.sysdiagram" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_Booking_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_BookingRoom_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_BookingRoom_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_Facility_FacilityType" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_HotelFacility_Facility" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_RoomFacility_Facility" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_HotelFacility_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_HotelImage_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_HotelRoom_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_HotelRoom_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_RoomFacility_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelEngineDbModel.FK_RoomImage_Room" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

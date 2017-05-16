@@ -1,0 +1,1 @@
+c:\users\charithsu\documents\visual studio 2015\Projects\HotelManager\HotelManager\obj\Debug\HotelManager.API.csprojResolveAssemblyReference.cache
